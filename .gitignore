@@ -1,0 +1,42 @@
+# Archivos de entorno virtual
+venv/
+.env/
+.virtualenv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del entorno
+*.env
+*.env.*
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos generados por pytest o cobertura de código
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de logs
+*.log
+
+# Archivos de depuración
+*.bak
+
+# Dependencias
+requirements.txt.lock
+
+# Archivos temporales
+tmp/
+*.tmp
